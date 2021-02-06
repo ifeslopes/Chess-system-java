@@ -1,6 +1,5 @@
 package aplication;
 
-import boardgame.Board;
 import chess.ChessException;
 import chess.ChessMatch;
 import chess.ChessPiece;
@@ -9,6 +8,7 @@ import chess.ChessPosition;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class Program {
     public static void main(String[] args) {
 
@@ -16,7 +16,6 @@ public class Program {
         ChessMatch chessMatch = new ChessMatch();
         while (true) {
          try {
-
 
 
              UI.printBord(chessMatch.getPieces());
@@ -40,6 +39,5 @@ public class Program {
 
 
         }
-
     }
 }
