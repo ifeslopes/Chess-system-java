@@ -36,7 +36,7 @@ public class Program {
 
              ChessPiece capturedPiece = chessMatch.performaChessMove(source, tartget);
 
-             if(captured != null){
+             if(capturedPiece != null){
                  captured.add(capturedPiece);
              }
          }
