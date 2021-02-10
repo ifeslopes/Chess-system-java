@@ -73,7 +73,7 @@ public class ChessMatch {
         }
         check = (testCheck(opponet(currentPlayer))) ? true : false;
 
-        if(testCheck(opponet(currentPlayer))){
+        if(testCheckMate(opponet(currentPlayer))){
             checkMate =true;
         }
         else {
